@@ -1,0 +1,76 @@
+[
+	{
+		"id": "2323",
+		"price": "60$",
+		"color": "plata",
+		"category": "hogar",
+		"title": "AFEITADORA 20 PZAS PCABELLO CPLATA HC5000 CONAIR",
+		"img": "https://tiendasdaka.com/img/producto/LH-00002164.webp"
+	},
+	{
+		"id": "4632",
+		"price": "35$",
+		"color": "negro",
+		"category": "hogar",
+		"title": "SECADOR PCABELLO D2121WMF REMINGTON",
+		"img": "https://tiendasdaka.com/img/producto/LH-00003013.webp"
+	},
+	{
+		"id": "6456",
+		"price": "65$",
+		"color": "negro",
+		"category": "hogar",
+		"title": "CAFETERA DE VAPOR PARA ESPRESSO O CAPPUCCINO 4 TZAS ACERO INOX. BVSTEM3300-013 OSTER",
+		"img": "https://tiendasdaka.com/img/producto/LH-00003018.webp"
+	},
+
+	{
+		"id": "1123",
+		"price": "990$",
+		"color": "plata",
+		"category": "electrodomesticos",
+		"title": "SECADORA 22 KG CFRONTAL CPLATA DVE22C6370P SAMSUNG",
+		"img": "https://tiendasdaka.com/img/producto/LB-00001857.webp"
+	},
+	{
+		"id": "2356",
+		"price": "680$",
+		"color": "gris",
+		"category": "electrodomesticos",
+		"title": "REFRIGERADOR 13 PIE TF CDISPENSADOR CPLATA RT35DG5224S9 SAMSUNG",
+		"img": "https://tiendasdaka.com/img/producto/LB-00001826.webp"
+	},
+	{
+		"id": "7865",
+		"price": "170$",
+		"color": "plata",
+		"category": "electrodomesticos",
+		"title": "TOPE A GAS 90 CM 5 HORNILLAS ACERO INOX. CPLATA DA9GS5 DAEWOO",
+		"img": "https://tiendasdaka.com/img/producto/LB-00001785.webp"
+	},
+
+	{
+		"id": "4543",
+		"price": "3550$",
+		"color": "negro",
+		"category": "tv",
+		"title": "TV 75 PULG NEO QLED 8K SMART CNEGRO QN75QN900C SAMSUNG",
+		"img": "https://tiendasdaka.com/img/producto/LM-00000911.webp"
+	},
+	{
+		"id": "7677",
+		"price": "110$",
+		"color": "blanco",
+		"category": "tv",
+		"title": "TV 32 PULG HD LED SLIM 32DA23AS DAEWOO",
+		"img": "https://tiendasdaka.com/img/producto/LM-00000890.webp"
+	},
+	{
+		"id": "7563",
+		"price": "2500$",
+		"color": "negro",
+		"category": "tv",
+		"title": " TV 55 PULG CRYSTAL 4K UHD SMART CNEGRO UN55CU7000 SAMSUNG",
+		"img": "https://tiendasdaka.com/img/producto/LM-00000888.webp"
+	}
+]
