@@ -9,8 +9,7 @@ export const pathMap = [
 		element: <MainPage />,
 		children: [
 			{
-				id: "index",
-				path: "/start",
+				path: "/",
 				element: <StartPage />,
 			},
 			{

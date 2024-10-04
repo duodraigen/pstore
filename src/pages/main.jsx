@@ -68,7 +68,7 @@ export const MainPage = () => {
 					}}
 				>
 					<section className="gapped-section">
-						<NavigationLink path={"/start"}>Inicio</NavigationLink>
+						<NavigationLink path={"/"}>Inicio</NavigationLink>
 						<NavigationLink path={"/promotions"}>Promociones</NavigationLink>
 					</section>
 					<section
