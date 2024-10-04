@@ -12,6 +12,7 @@ export const Search = ({ fieldName, placeholder }) => {
 			navigate("/search");
 		} else {
 			navigate("/");
+			return {};
 		}
 	}
 
