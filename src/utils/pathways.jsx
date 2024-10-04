@@ -9,6 +9,10 @@ export const pathMap = [
 		element: <MainPage />,
 		children: [
 			{
+<<<<<<< HEAD
+=======
+				default: true,
+>>>>>>> b521e8d (initial)
 				path: "/start",
 				element: <StartPage />,
 			},
