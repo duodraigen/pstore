@@ -11,7 +11,7 @@ export const Search = ({ fieldName, placeholder }) => {
 			overwrite(inpt);
 			navigate("/search");
 		} else {
-			navigate("/start");
+			navigate("/");
 		}
 	}
 
