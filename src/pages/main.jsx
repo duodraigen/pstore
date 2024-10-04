@@ -9,12 +9,11 @@ import { ContactDialog } from "../components/dialogs/contacts";
 import { openDialog } from "../utils/dialog";
 import { AboutDialog } from "../components/dialogs/about";
 
-import { useProduct } from "../utils/storecall";
 import { CONTACT_DLG_EID, INFO_DLG_EID } from "../utils/const";
 
-export const MainPage = () => {
-	const { product } = useProduct();
+import { useNavigate } from "react-router-dom";
 
+export const MainPage = () => {
 	return (
 		<>
 			<ContactDialog eid={CONTACT_DLG_EID} />
