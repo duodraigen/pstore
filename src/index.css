@@ -1,0 +1,235 @@
+:root {
+	--spacing-large: 1rem;
+	--spacing-small: 0.25rem;
+	--spacing-normal: 0.5rem;
+
+	--radius: 6px;
+
+	--text-color: #252525;
+	--body-color: #f5f5f5;
+	--decor-color: #ffdd00;
+	--primary-color: #143e8f;
+	--shadow-color: #151515ba;
+	--border-color: #7f7f7f40;
+	--secondary-color: #192b55;
+	--text-unhinted-color: #7f7f7f;
+	--text-alternate-color: #edf0f6;
+
+	--shadow-blur: 5px;
+	--shadow-offset: 1px;
+
+	--size-xs: 350px;
+	--size-sm: 640px;
+	--size-md: 800px;
+	--size-lg: 1024px;
+
+	--page-max-width: 1300px;
+
+	--text-xs: 12px;
+	--text-sm: 16px;
+	--text-md: 24px;
+	--text-lg: 32px;
+
+	--icon-size: 20px;
+
+	--brand-icon-size: 2rem;
+}
+
+* {
+	font-style: normal;
+	color: var(--text-color);
+	font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: var(--size-xs)) {
+	.grid-inline {
+		grid-template-columns: repeat(1, calc(var(--size-xs) - 20px));
+	}
+}
+
+@media screen and (max-width: var(--size-sm)) {
+	.grid-inline {
+		grid-template-columns: repeat(2, calc(var(--size-xs) - 20px));
+	}
+}
+
+@media screen and (max-width: var(--size-md)) {
+	.grid-inline {
+		grid-template-columns: repeat(3, calc(var(--size-xs) - 20px));
+	}
+}
+
+@media screen and (max-width: var(--size-lg)) {
+	.grid-inline {
+		grid-template-columns: repeat(4, calc(var(--size-xs) - 20px));
+	}
+}
+
+.font-body {
+	font-style: normal;
+	color: var(--text-color);
+	font-family: "Roboto", sans-serif;
+}
+
+.font-mono {
+	font-style: normal;
+	color: var(--text-color);
+	font-optical-sizing: auto;
+	font-family: "Roboto Mono", monospace;
+}
+
+.font-sans {
+	font-style: normal;
+	color: var(--text-color);
+	font-optical-sizing: auto;
+	font-family: "Sora", sans-serif;
+}
+
+.elevated {
+	box-shadow: var(--shadow-offset) var(--shadow-offset) var(--shadow-blur)
+		var(--shadow-color);
+}
+
+.sticky {
+	position: sticky;
+	top: 0px;
+}
+
+.bordered {
+	border: 1px solid var(--border-color);
+}
+
+.padded {
+	padding: var(--spacing-normal);
+}
+
+.padded-lg {
+	padding: var(--spacing-large);
+}
+
+.rounded {
+	border-radius: var(--radius);
+}
+
+.circled {
+	border-radius: 50.999999px;
+}
+
+.responsive-grid {
+	display: grid;
+	gap: var(--spacing-normal);
+	justify-content: space-around;
+	padding: var(--spacing-large);
+	grid-template-columns: repeat(auto-fill, calc(var(--size-xs) - 70px));
+}
+
+.grid-inline {
+	display: grid;
+	gap: var(--spacing-normal);
+	justify-content: space-around;
+}
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icon {
+	font-size: var(--icon-size);
+}
+
+.gapped-section {
+	height: 100%;
+	display: grid;
+	grid-auto-flow: column;
+	gap: var(--spacing-large);
+}
+
+a.nav-link {
+	font-size: 18px;
+	transition: 100ms;
+	text-decoration: none;
+	color: var(--text-unhinted-color);
+	padding-bottom: var(--spacing-normal);
+}
+
+a.nav-link-active {
+	color: var(--primary-color);
+	border-bottom: 2px solid var(--primary-color);
+}
+
+input[type="search"].search-input {
+	width: 100%;
+	border: none;
+	font-size: var(--text-sm);
+	background-color: #f5f5f500;
+	padding: var(--spacing-small);
+}
+
+input[type="search"].search-input:focus {
+	outline: none;
+	border: none;
+}
+
+input[type="search"].search-input:focus-within {
+	outline: none;
+	border: none;
+}
+
+input[type="search"].search-input:focus-visible {
+	outline: none;
+	border: none;
+}
+
+div.search-container {
+	width: 70%;
+	display: flex;
+	transition: 200ms;
+	align-items: center;
+	background-color: #f5f5f5;
+	gap: var(--spacing-normal);
+	padding: var(--spacing-normal);
+}
+
+div.search-container:hover {
+	background-color: #edf0f690;
+}
+
+.ghost {
+	border: none;
+	transition: 200ms;
+	background-color: #00000000;
+}
+
+.ghost:hover {
+	background-color: #25252520;
+}
+
+.full-sized {
+	width: 100%;
+	height: 100%;
+}
+
+.dialog-surface {
+	width: 50%;
+	border: none;
+	min-width: 300px;
+	max-width: 600px;
+	overflow-x: hidden;
+}
+
+.dialog-surface::backdrop {
+	background-color: #25252570;
+}
+
+.thin-card-list {
+	list-style-type: none;
+}
+
+.thin-card {
+	display: grid;
+	margin: var(--spacing-normal) 0px;
+	grid-template-columns: 2.5rem 80% 10%;
+}
